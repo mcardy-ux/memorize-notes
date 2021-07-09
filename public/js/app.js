@@ -19039,6 +19039,7 @@ __webpack_require__.r(__webpack_exports__);
         name: '',
         email: '',
         password: '',
+        code_admin: '',
         password_confirmation: '',
         terms: false
       })
@@ -19981,17 +19982,79 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("svg", {
-  "class": "w-16 h-16",
-  viewBox: "0 0 48 48",
-  fill: "none",
-  xmlns: "http://www.w3.org/2000/svg"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
-  d: "M11.395 44.428C4.557 40.198 0 32.632 0 24 0 10.745 10.745 0 24 0a23.891 23.891 0 0113.997 4.502c-.2 17.907-11.097 33.245-26.602 39.926z",
-  fill: "#6875F5"
+  style: {
+    "text-align": "center",
+    "width": "40px",
+    "height": "80px"
+  },
+  xmlns: "http://www.w3.org/2000/svg",
+  id: "Capa_1",
+  "enable-background": "new 0 0 512 512",
+  height: "512",
+  viewBox: "0 0 512 512",
+  width: "512"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("g", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("g", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m106.907 104.334v367.033c0 18.299 14.834 33.133 33.133 33.133h314.769c18.299 0 33.133-14.834 33.133-33.133v-367.033z",
+  fill: "#f9f5f3"
 }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
-  d: "M14.134 45.885A23.914 23.914 0 0024 48c13.255 0 24-10.745 24-24 0-3.516-.756-6.856-2.115-9.866-4.659 15.143-16.608 27.092-31.75 31.751z",
-  fill: "#6875F5"
-})], -1
+  d: "m464.941 104.334v367.033c0 18.299-14.834 33.133-33.133 33.133h23c18.299 0 33.133-14.834 33.133-33.133v-367.033z",
+  fill: "#f9eae0"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("g", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m225.409 393.911-129.302-129.302-46.858 46.858 129.302 129.302c1.5 1.5 3.535 2.343 5.657 2.343h7.141l36.403-36.403v-7.142c0-2.12-.843-4.155-2.343-5.656z",
+  fill: "#a0c8ff"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m225.409 393.911-129.302-129.302-11.477 11.477 133.806 133.806c1.097 1.097 1.838 2.481 2.159 3.974l7.156-7.156v-7.142c.001-2.121-.842-4.156-2.342-5.657z",
+  fill: "#91b2fa"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m227.752 435.112v-35.544c0-.966-.183-1.911-.515-2.799l-45.828 45.828c.888.332 1.833.515 2.799.515h35.544c4.418 0 8-3.581 8-8z",
+  fill: "#f9eae0"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m52.329 244.26-23.429 23.429c-6.47 6.47-6.47 16.959 0 23.429l23.429 23.429 46.858-46.858-23.429-23.429c-6.47-6.469-16.959-6.469-23.429 0z",
+  fill: "#fa8ebb"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m52.567 244.045c.078.075.162.139.238.215l34.905 34.905 11.476-11.476-23.428-23.429c-6.393-6.393-16.705-6.457-23.191-.215z",
+  fill: "#f57fb0"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m454.808 40.634h-314.769c-18.299 0-33.133 14.834-33.133 33.133v49.701h381.034v-49.702c.001-18.298-14.833-33.132-33.132-33.132z",
+  fill: "#ffce69"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m454.808 40.634h-23c18.299 0 33.133 14.834 33.133 33.133v49.701h23v-49.702c0-18.298-14.834-33.132-33.133-33.132z",
+  fill: "#ffbd61"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("g", {
+  fill: "#bdd3dd"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m156.607 57.2c0 9.15 7.417 16.567 16.567 16.567s16.567-7.417 16.567-16.567v-33.133c0-9.15-7.417-16.567-16.567-16.567s-16.567 7.417-16.567 16.567z"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m405.107 57.2c0 9.15 7.417 16.567 16.567 16.567s16.567-7.417 16.567-16.567v-33.133c0-9.15-7.417-16.567-16.567-16.567s-16.567 7.417-16.567 16.567z"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m239.44 57.2c0 9.15 7.417 16.567 16.567 16.567s16.567-7.417 16.567-16.567v-33.133c0-9.15-7.417-16.567-16.567-16.567s-16.567 7.417-16.567 16.567z"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m322.274 57.2c0 9.15 7.417 16.567 16.567 16.567s16.567-7.417 16.567-16.567v-33.133c0-9.15-7.417-16.567-16.567-16.567s-16.567 7.417-16.567 16.567z"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m421.674 7.5c-4.47 0-8.52 1.779-11.5 4.657 3.119 3.013 5.067 7.23 5.067 11.91v33.133c0 4.679-1.948 8.897-5.067 11.91 2.98 2.878 7.03 4.657 11.5 4.657 9.15 0 16.567-7.417 16.567-16.567v-33.133c0-9.15-7.417-16.567-16.567-16.567z",
+  fill: "#abc4d6"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m338.841 7.5c-4.471 0-8.52 1.779-11.5 4.657 3.119 3.013 5.067 7.23 5.067 11.91v33.133c0 4.679-1.948 8.897-5.067 11.91 2.98 2.878 7.029 4.657 11.5 4.657 9.15 0 16.567-7.417 16.567-16.567v-33.133c0-9.15-7.417-16.567-16.567-16.567z",
+  fill: "#abc4d6"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m256.008 7.5c-4.47 0-8.52 1.779-11.5 4.657 3.119 3.013 5.067 7.23 5.067 11.91v33.133c0 4.679-1.947 8.897-5.067 11.91 2.98 2.878 7.03 4.657 11.5 4.657 9.15 0 16.567-7.417 16.567-16.567v-33.133c0-9.15-7.418-16.567-16.567-16.567z",
+  fill: "#abc4d6"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m173.174 7.5c-4.471 0-8.52 1.779-11.5 4.657 3.119 3.013 5.067 7.23 5.067 11.91v33.133c0 4.679-1.947 8.897-5.067 11.91 2.98 2.878 7.029 4.657 11.5 4.657 9.15 0 16.567-7.417 16.567-16.567v-33.133c0-9.15-7.417-16.567-16.567-16.567z",
+  fill: "#abc4d6"
+})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("g", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m454.808 33.134h-9.067v-9.067c0-13.271-10.796-24.067-24.067-24.067s-24.067 10.796-24.067 24.067v9.067h-34.7v-9.067c.001-13.271-10.796-24.067-24.066-24.067s-24.067 10.796-24.067 24.067v9.067h-34.7v-9.067c0-13.271-10.796-24.067-24.067-24.067s-24.067 10.796-24.067 24.067v9.067h-34.7v-9.067c.001-13.271-10.796-24.067-24.066-24.067-13.271 0-24.067 10.796-24.067 24.067v9.067h-9.068c-22.405 0-40.632 18.228-40.632 40.632v183.537l-18.346-18.346c-9.384-9.384-24.651-9.384-34.035 0l-23.429 23.429c-9.384 9.383-9.384 24.652 0 34.035l75.81 75.81v99.136c0 22.405 18.228 40.633 40.632 40.633h255.135c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-255.135c-14.134 0-25.632-11.499-25.632-25.633v-84.136l61.184 61.184c.178.178.364.346.557.503.131.107.267.202.403.299.064.045.124.096.189.139.172.115.349.217.528.316.034.019.066.041.1.059.189.101.382.189.576.272.029.012.056.028.086.04.189.078.381.144.574.206.04.013.078.029.118.041.182.055.366.098.55.138.055.012.108.029.163.04.179.035.359.058.54.08.063.008.124.021.187.027.243.024.488.036.732.036h43.751l9.518 9.518c1.464 1.464 3.384 2.197 5.303 2.197s3.839-.733 5.303-2.197c2.929-2.929 2.929-7.678 0-10.607l-9.518-9.517v-43.749c0-.246-.012-.491-.036-.736-.005-.054-.017-.106-.023-.16-.023-.19-.048-.379-.085-.567-.01-.048-.024-.095-.035-.143-.042-.191-.087-.382-.143-.57-.01-.034-.024-.066-.035-.1-.063-.199-.132-.397-.212-.592-.009-.021-.02-.041-.029-.062-.086-.203-.179-.404-.283-.6-.014-.026-.03-.049-.044-.075-.103-.188-.211-.373-.331-.553-.037-.056-.081-.108-.12-.163-.102-.145-.204-.29-.317-.429-.158-.193-.325-.379-.503-.557l-61.185-61.185h258.087c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-265.067c-2.203 0-4.179.956-5.551 2.469l-44.933-44.932v-141.334h366.034v51.151c0 4.142 3.358 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-108.352c.001-22.405-18.227-40.632-40.632-40.632zm-234.556 402.478h-21.251l21.251-21.251zm-157.317-121.065 12.822-12.822 117.959 117.959-12.822 12.822zm141.388 94.53-117.959-117.959 12.823-12.823 117.959 117.959zm-170.12-136.084 23.429-23.429c3.535-3.535 9.287-3.535 12.822 0l18.126 18.126-18.123 18.123c-.001.001-.002.002-.002.002-.001.001-.002.002-.002.002l-18.124 18.123-18.125-18.125c-3.536-3.535-3.536-9.287-.001-12.822zm387.471-257.993c5 0 9.067 4.067 9.067 9.067v33.133c0 5-4.067 9.067-9.067 9.067s-9.067-4.067-9.067-9.067v-16.556c0-.003 0-.006 0-.01s0-.006 0-.01v-16.557c.001-5 4.068-9.067 9.067-9.067zm-82.833 0c5 0 9.067 4.067 9.067 9.067v33.133c0 5-4.067 9.067-9.067 9.067s-9.067-4.067-9.067-9.067v-16.556c0-.003 0-.006 0-.01s0-.006 0-.01v-16.557c0-5 4.067-9.067 9.067-9.067zm-91.9 9.067c0-5 4.067-9.067 9.067-9.067s9.067 4.067 9.067 9.067v16.557.01s0 .006 0 .01v16.556c0 5-4.067 9.067-9.067 9.067-4.999 0-9.067-4.067-9.067-9.067zm-73.767-9.067c4.999 0 9.067 4.067 9.067 9.067v16.557c0 .003-.001.006-.001.01s.001.006.001.01v16.556c0 5-4.067 9.067-9.067 9.067s-9.067-4.067-9.067-9.067v-16.556c0-.003.001-.006.001-.01s-.001-.006-.001-.01v-16.557c0-5 4.067-9.067 9.067-9.067zm-58.767 100.967v-42.201c0-14.134 11.499-25.632 25.632-25.632h9.068v9.066c0 13.271 10.796 24.067 24.067 24.067 13.27 0 24.067-10.796 24.067-24.067v-9.066h34.7v9.066c0 13.271 10.796 24.067 24.067 24.067s24.067-10.796 24.067-24.067v-9.066h34.7v9.066c0 13.271 10.796 24.067 24.067 24.067s24.067-10.796 24.067-24.067v-9.066h34.7v9.066c0 13.271 10.796 24.067 24.067 24.067s24.067-10.796 24.067-24.067v-9.066h9.067c14.134 0 25.633 11.499 25.633 25.632v42.201z"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m487.941 204.619c-4.142 0-7.5 3.358-7.5 7.5v259.248c0 14.134-11.499 25.633-25.633 25.633h-29.634c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h29.634c22.405 0 40.633-18.228 40.633-40.633v-259.248c0-4.142-3.358-7.5-7.5-7.5z"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m164.89 180.667h265.067c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-265.067c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5z"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m164.89 230.367h265.067c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-265.067c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5z"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m164.89 280.067h265.067c4.142 0 7.5-3.358 7.5-7.5s-3.358-7.5-7.5-7.5h-265.067c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5z"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("path", {
+  d: "m437.458 371.967c0-4.142-3.358-7.5-7.5-7.5h-173.95c-4.142 0-7.5 3.358-7.5 7.5s3.358 7.5 7.5 7.5h173.95c4.142 0 7.5-3.358 7.5-7.5z"
+})])])], -1
 /* HOISTED */
 );
 
@@ -22241,7 +22304,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", {
   "class": "mb-4 text-sm text-gray-600"
-}, " Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one. ", -1
+}, " Has olvidado la contraseña? No hay problema. Se enviara un link a tu correo para restablecer tu contraseña, Es necesario que proporciones tu correo. ", -1
 /* HOISTED */
 );
 
@@ -22253,7 +22316,7 @@ var _hoisted_3 = {
   "class": "flex items-center justify-end mt-4"
 };
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Email Password Reset Link ");
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Correo de Restablecimiento ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_jet_authentication_card_logo = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-authentication-card-logo");
@@ -22351,7 +22414,7 @@ var _hoisted_4 = {
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("span", {
   "class": "ml-2 text-sm text-gray-600"
-}, "Remember me", -1
+}, "Recordarme", -1
 /* HOISTED */
 );
 
@@ -22359,9 +22422,9 @@ var _hoisted_6 = {
   "class": "flex items-center justify-end mt-4"
 };
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Forgot your password? ");
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Olvide mi contraseña! ");
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Log in ");
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Ingresar ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_jet_authentication_card_logo = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-authentication-card-logo");
@@ -22410,7 +22473,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       /* PROPS */
       , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
         "for": "password",
-        value: "Password"
+        value: "Contraseña"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
         id: "password",
         type: "password",
@@ -22493,27 +22556,30 @@ var _hoisted_3 = {
   "class": "mt-4"
 };
 var _hoisted_4 = {
-  key: 0,
   "class": "mt-4"
 };
 var _hoisted_5 = {
-  "class": "flex items-center"
+  key: 0,
+  "class": "mt-4"
 };
 var _hoisted_6 = {
+  "class": "flex items-center"
+};
+var _hoisted_7 = {
   "class": "ml-2"
 };
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" I agree to the ");
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" I agree to the ");
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" and ");
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" and ");
 
-var _hoisted_9 = {
+var _hoisted_10 = {
   "class": "flex items-center justify-end mt-4"
 };
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Already registered? ");
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Ya estas registrado? ");
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Register ");
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Registrar ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_jet_authentication_card_logo = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-authentication-card-logo");
@@ -22540,12 +22606,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_validation_errors, {
         "class": "mb-4"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("form", {
-        onSubmit: _cache[6] || (_cache[6] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+        onSubmit: _cache[7] || (_cache[7] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
           return $options.submit && $options.submit.apply($options, arguments);
         }, ["prevent"]))
       }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
         "for": "name",
-        value: "Name"
+        value: "Nombre Completo"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
         id: "name",
         type: "text",
@@ -22575,7 +22641,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       /* PROPS */
       , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
         "for": "password",
-        value: "Password"
+        value: "Contraseña"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
         id: "password",
         type: "password",
@@ -22590,7 +22656,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       /* PROPS */
       , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
         "for": "password_confirmation",
-        value: "Confirm Password"
+        value: "Confirmar Contraseña"
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
         id: "password_confirmation",
         type: "password",
@@ -22603,26 +22669,40 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         autocomplete: "new-password"
       }, null, 8
       /* PROPS */
-      , ["modelValue"])]), _ctx.$page.props.jetstream.hasTermsAndPrivacyPolicyFeature ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
+      , ["modelValue"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
+        "for": "code_admin",
+        value: "Codigo provisto por Administrador"
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_input, {
+        id: "code_admin",
+        type: "text",
+        "class": "mt-1 block w-full",
+        modelValue: $data.form.code_admin,
+        "onUpdate:modelValue": _cache[5] || (_cache[5] = function ($event) {
+          return $data.form.code_admin = $event;
+        }),
+        required: ""
+      }, null, 8
+      /* PROPS */
+      , ["modelValue"])]), _ctx.$page.props.jetstream.hasTermsAndPrivacyPolicyFeature ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_label, {
         "for": "terms"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_checkbox, {
+          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_checkbox, {
             name: "terms",
             id: "terms",
             checked: $data.form.terms,
-            "onUpdate:checked": _cache[5] || (_cache[5] = function ($event) {
+            "onUpdate:checked": _cache[6] || (_cache[6] = function ($event) {
               return $data.form.terms = $event;
             })
           }, null, 8
           /* PROPS */
-          , ["checked"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+          , ["checked"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
             target: "_blank",
             href: _ctx.route('terms.show'),
             "class": "underline text-sm text-gray-600 hover:text-gray-900"
           }, "Terms of Service", 8
           /* PROPS */
-          , ["href"]), _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+          , ["href"]), _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
             target: "_blank",
             href: _ctx.route('policy.show'),
             "class": "underline text-sm text-gray-600 hover:text-gray-900"
@@ -22633,12 +22713,12 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
         /* STABLE */
 
-      })])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
+      })])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
         href: _ctx.route('login'),
         "class": "underline text-sm text-gray-600 hover:text-gray-900"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_10];
+          return [_hoisted_11];
         }),
         _: 1
         /* STABLE */
@@ -22652,7 +22732,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         disabled: $data.form.processing
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_11];
+          return [_hoisted_12];
         }),
         _: 1
         /* STABLE */
@@ -24408,13 +24488,22 @@ var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticV
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_center = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("center");
-
   var _component_inertia_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("inertia-link");
+
+  var _component_center = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("center");
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_center, null, {
     "default": _withId(function () {
-      return [_hoisted_5];
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_inertia_link, {
+        href: '/'
+      }, {
+        "default": _withId(function () {
+          return [_hoisted_5];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
     }),
     _: 1
     /* STABLE */
