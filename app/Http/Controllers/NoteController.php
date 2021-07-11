@@ -15,7 +15,8 @@ class NoteController extends Controller
     public function index()
     {
         return Inertia::render('Notes/Index', [
-            'notes'=>Note::latest()->get()
+            'notes'=>Note::latest()
+            ->get()
         ]);
     }
 
@@ -26,7 +27,7 @@ class NoteController extends Controller
      */
     public function create()
     {
-        //
+        return Inertia::render('Notes/Create');
     }
 
     /**
@@ -37,7 +38,14 @@ class NoteController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $eval=$request->validate([
+            'excerpt' => 'required',
+            'content' => 'required',
+        ]);
+        if ($eval) {
+            $note=Note::create($request->all());
+        return redirect()->route('notes.show',$note->id);
+        }
     }
 
     /**
@@ -48,7 +56,7 @@ class NoteController extends Controller
      */
     public function show(Note $note)
     {
-        //
+        return Inertia::render('Notes/Show', compact('note'));
     }
 
     /**
@@ -59,7 +67,7 @@ class NoteController extends Controller
      */
     public function edit(Note $note)
     {
-        //
+        return Inertia::render('Notes/Edit',compact('note'));
     }
 
     /**
@@ -71,7 +79,16 @@ class NoteController extends Controller
      */
     public function update(Request $request, Note $note)
     {
-        //
+         
+        $eval=$request->validate([
+            'excerpt' => 'required',
+            'content' => 'required',
+        ]);
+        if ($eval) {
+            $note->update($request->all());
+        return redirect()->route('notes.index');
+        }
+       
     }
 
     /**
@@ -82,6 +99,7 @@ class NoteController extends Controller
      */
     public function destroy(Note $note)
     {
-        //
+        $note->delete();
+        return redirect()->route('notes.index');
     }
 }
